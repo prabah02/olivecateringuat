@@ -25,7 +25,7 @@
 			</div>
 			<div class="col-md-3 col-sm-2"><br>
 				<b>SOCIAL MEDIA </b> <br>
-				<a class="btn btn-social-icon btn-facebook" href="www.facebook.com/olivecateringchennai">
+				<a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/olivecateringchennai">
     					<i class="fa fa-facebook"></i>
   					</a>
   					<a class="btn btn-social-icon btn-instagram">
