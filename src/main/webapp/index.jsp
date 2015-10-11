@@ -110,11 +110,11 @@
 
 <script type="text/JavaScript">
 $(window).scroll(function(){
-    if($(this).scrollTop() > 135){
+    if($(this).scrollTop() > 200){
     	$('#neuMenu').addClass('nevMenu');
     	$('#corosoulContainer').addClass('corosoulContainerStyle');
     	
-     } else if($(this).scrollTop() <= 135){
+     } else if($(this).scrollTop() <= 200){
     	 $('#neuMenu').removeClass('nevMenu');
     	 $('#corosoulContainer').removeClass('corosoulContainerStyle');
      } });
