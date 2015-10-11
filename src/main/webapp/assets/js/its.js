@@ -116,14 +116,3 @@ $(document).ready(function(){
 	
 	
 });
-  
-  
-$(window).scroll(function(){
-    if($(this).scrollTop() > 135){
-    	$('#neuMenu').addClass('nevMenu');
-    	$('#corosoulContainer').addClass('corosoulContainerStyle');
-    	
-     } else if($(this).scrollTop() <= 135){
-    	 $('#neuMenu').removeClass('nevMenu');
-    	 $('#corosoulContainer').removeClass('corosoulContainerStyle');
-     } });

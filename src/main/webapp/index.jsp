@@ -108,5 +108,16 @@
 	</div>
 </div>
 
-
+<script type="text/JavaScript">
+$(window).scroll(function(){
+    if($(this).scrollTop() > 135){
+    	$('#neuMenu').addClass('nevMenu');
+    	$('#corosoulContainer').addClass('corosoulContainerStyle');
+    	
+     } else if($(this).scrollTop() <= 135){
+    	 $('#neuMenu').removeClass('nevMenu');
+    	 $('#corosoulContainer').removeClass('corosoulContainerStyle');
+     } });
+	 
+</script>
 <jsp:include page="footer.jsp" />

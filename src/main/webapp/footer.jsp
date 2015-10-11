@@ -57,7 +57,7 @@
 
 <div
 	style="background: #232323 none repeat scroll 0 0; border-top: 2px dotted #575757;">
-	copy ryt	
+	copy right content	
 </div>
 
 </body>
