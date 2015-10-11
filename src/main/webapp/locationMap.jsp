@@ -1,0 +1,1 @@
+<div id="map" style="width:957px; height:271px; margin: 0 auto;" class="make-border"></div>

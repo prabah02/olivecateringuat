@@ -1,0 +1,98 @@
+
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+ }
+  
+ .nevMenu{
+ 	top:0;
+ 	position: fixed;
+ 	z-index: 99999;
+ 	height: 52px;
+ }
+
+ .ListItem{
+    color: #dedede;
+    list-style:inside none disc;
+
+}
+
+.ListItem:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.corosoulContainerStyle{
+	margin-top: 50px;
+}
+
+.outer{
+	width: 100%; 
+	text-align: center; 
+	background-color: #ffffff; 
+	min-height:65px;
+}
+
+.inner{ 
+	display: none; 
+	background-color: #978e77; 
+	width:100%; 
+}
+
+.inner p {
+	display: none; 
+	background-color: #978e77;
+}
+
+ .itemSelectBox {  
+   width: 250px;
+   height: 300px !important;
+   
+}
+ 
+ .itemSelectBoxDiv{
+ width: 35%;
+ float:left;
+ }
+ 
+ .itemSelectButtonDiv{
+ width:15%;
+ float:left;
+ }
+ 
+ .displayFlex{
+ 	display:flex !important;
+ }
+ 
+ .custmMenuButton{
+	width:350px;
+ }
+ .make-border{
+ 	border:1px solid red;
+ }
+ .max-pageSize{
+ 	margin: 0 auto;
+ 	max-width: 980px;
+ }
+ 
+input {
+    display: block;
+}
+label {
+    margin-top: 5px;
+    display: block;
+}
+
+input.parsley-error {
+    border: 1px solid red;
+}
+
+.parsley-errors-list {
+    color: red;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+}
