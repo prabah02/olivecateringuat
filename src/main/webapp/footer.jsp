@@ -18,8 +18,8 @@
 				<b> OUR LOCATION </b> <br>
 				<p style="color: #dedede;">
 				<b>Olive Catering</b><br>
-				No 64, Vellalar Street
-				Mugappair West
+				No 64, Vellalar Street,<br>
+				Mugappair West,<br>
 				Chennai-600 037.
 				</p>
 			</div>

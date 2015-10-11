@@ -20,8 +20,7 @@
 <b> We are complete solution for your family functions . </b>
 </div>
 <div class="col-md-5 col-sm-5"  style="background-color: white;">
-<img src="<%=request.getContextPath()%>/assets/images/img_new1.png"
-						alt="...">
+	<img src="<%=request.getContextPath()%>/assets/images/img_new1.png" alt="...">
 </div>
 				
 			<br><br><br>
@@ -61,12 +60,12 @@
 			<div class="col-sm-6 col-md-4">
 				<div class="thumbnail">
 					<h3 style="text-align: center;">About Us</h3>
-					<img src="<%=request.getContextPath()%>/assets/images/tumb.jpg"
+					<img src="<%=request.getContextPath()%>/assets/images/img_new1.png" width="200px;"
 						alt="..." class="img-circle">
 					<div class="caption">
-						<p>We offer catering services and event management services
-							all over south India at the most affordable rates. We deliver
-							exquisite recipes with traditional flavor ...</p>
+						<p style="text-align:justify;">We believe that the making- and enjoyment - of food is an art.
+						Through our foods and hospitality services made with love, we want to bring to our customer the best that our 
+						culinary traditions have to offer .... </p>
 						<p>
 							<a href="#" class="btn btn-primary" role="button">View More</a>
 						</p>
@@ -77,12 +76,11 @@
 			<div class="col-sm-6 col-md-4">
 				<div class="thumbnail">
 					<h3 style="text-align: center;">Services</h3>
-					<img src="<%=request.getContextPath()%>/assets/images/tumb.jpg"
+					<img src="<%=request.getContextPath()%>/assets/images/services_img.jpg" width="210px;"
 						alt="..." class="img-circle">
 					<div class="caption">
-						<p>We offer authentic catering services and event management
-							services for all kind of special occasions. We specialize in an
-							exclusive variety of food recipes such...</p>
+						<p style="text-align:justify;">We know that the VVIP's, VIP's and important guest or business delegates expects a sophisticated menu and presentation
+						 - from how the meal is plated, to selection of greens in the salad, to the types of dishes offered to accompany the main course....</p>
 						<p>
 							<a href="#" class="btn btn-primary" role="button">View More</a>
 						</p>
@@ -93,11 +91,14 @@
 			<div class="col-sm-6 col-md-4">
 				<div class="thumbnail">
 					<h3 style="text-align: center;">Event Planning</h3>
-					<img src="<%=request.getContextPath()%>/assets/images/tumb.jpg"
+					<img src="<%=request.getContextPath()%>/assets/images/event_planning.jpg" width="214px;"
 						alt="..." class="img-circle">
 					<div class="caption">
-						<p>- Aarathi Pachaipudi - Mangala Vadhyam - Flower Decoration
-							- Photo &amp; Video Coverage...</p>
+						<p style="text-align:justify;">Mugurtham  / Wedding Marriage Reception,
+							Birthday Functions, Family get together,
+							Anniversaries Ceremony,
+							Corporate Catering, Business Lunch,
+							Conference...</p>
 						<p>
 							<a href="#" class="btn btn-primary" role="button">View More</a>
 						</p>

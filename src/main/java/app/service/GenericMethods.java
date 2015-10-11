@@ -10,6 +10,7 @@ public class GenericMethods {
 	
 public Map<String, String> getEnumData(HttpServletRequest request){
 	
+	@SuppressWarnings("unchecked")
 	Enumeration<String> enumeration = request.getParameterNames();  
     Map<String, String> requestDataMap = new HashMap<String, String>();  
     while(enumeration.hasMoreElements()){  
