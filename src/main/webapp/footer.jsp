@@ -2,7 +2,7 @@
 <div style="background-color: #666666;">
 	<div id="aid" style="margin: 0 auto; max-width: 980px; border:">
 		<div class="row">
-			<div class="col-md-3 col-sm-2"><br>
+			<div class="col-md-3 col-sm-3"><br>
 				<b>IMPORTANT LINKS </b> <br>
 				<ul>
 					<li class="ListItem">Home</li>
@@ -14,7 +14,7 @@
 					<li class="ListItem">Contact Us</li>
 				</ul>
 			</div>
-			<div class="col-md-3 col-sm-2"><br>
+			<div class="col-md-3 col-sm-3"><br>
 				<b> OUR LOCATION </b> <br>
 				<p style="color: #dedede;">
 				<b>Olive Catering</b><br>
@@ -23,7 +23,7 @@
 				Chennai-600 037.
 				</p>
 			</div>
-			<div class="col-md-3 col-sm-2"><br>
+			<div class="col-md-3 col-sm-3"><br>
 				<b>SOCIAL MEDIA </b> <br>
 				<a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/olivecateringchennai">
     					<i class="fa fa-facebook"></i>
@@ -42,7 +42,7 @@
   					</a>
   					
 			</div>
-			<div class="col-md-3 col-sm-2"><br>
+			<div class="col-md-3 col-sm-3"><br>
 				<b>CONTACT US </b> <br>
 				<p style="color: #dedede;">Mobile : 9884406560<br>
 				www.olivecatering.in</p>

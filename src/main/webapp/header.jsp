@@ -68,7 +68,7 @@
 									</ul>
 									<ul class="nav navbar-nav navbar-right">
 										<li><a href="#">About Us</a></li>
-										<li><a href="#">Contact Us</a></li>
+										<li><a href="contactUs.jsp">Contact Us</a></li>
 									</ul>
 								</div>
 								<!-- /.navbar-collapse -->
