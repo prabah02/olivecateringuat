@@ -33,7 +33,7 @@
 		
 		<div class="col-md-12 col-sm-12">
 			<br> <b>Contact Us</b> <br>
-			<form name="contactUsSideBar" id="contactUsSideBar" method="post" action="Router" data-parsley-validate>
+			<form name="contactUsMain" id="contactUsMain" method="post" action="Router" data-parsley-validate>
 				<div class="form-group">
 					<label for="contactUsSideBar_Name">Your Name</label> 
 						<input type="text" class="form-control" id="contactUsSideBar_Name" name="contactUsSideBar_Name" placeholder="Name" minlength="6" required>
@@ -54,7 +54,7 @@
 						placeholder="Your Message"  required></textarea>
 				</div>
 				<input type="hidden" id="ACT" name="ACT" value="contactUsSideBar">
-				<button type="submit" name="contactUsSideBar_Submit" id="contactUsSideBar_Submit" class="btn btn-default">Submit</button><br><br>
+				<input type="submit" name="contactUsSideBar_Submit" id="contactUsSideBar_Submit" class="btn btn-default"  value="Submit"/><br><br>
 			</form>
 		</div>
 		
