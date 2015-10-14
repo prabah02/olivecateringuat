@@ -83,22 +83,23 @@ $(document).ready(function(){
         var form = $("#contactUsSideBar");
 
         form.parsley().validate();
-
+        $('#successMsg').html("");
         if (form.parsley().isValid()){
      	   console.log("test working");
    	    var formData = $("#contactUsSideBar").serialize();
    	    console.log("Form data"+formData);
    	    $.ajax({
-   	        url:"https://olivecateringuat.herokuapp.com/Router",
+   	        url:"http://localhost:8080/olivecatering/Router",
    	        type:"post",
    	        data: formData,
    	        cache: false,				
    	        success: function(response) { 
    	            global=response;
-   	            //displayPremium();
+   	            $.fn.displaySuccessMsg();
    	        },
    	        error: function(e){
    	            alert("Some error occured while trying to save your data. please try again later.");
+   	            $('#successMsg').html("");
    	        }
    	    }); 
         	
@@ -106,6 +107,14 @@ $(document).ready(function(){
         
     });
 	
+    
+    $.fn.displaySuccessMsg = function () {
+        $('#successMsg').html("Thankyou!, our team will contact you soon.");
+        $('[id^=contactUsSideBar]').val("");
+    };
+    
+    
+    
 	
 	
 	

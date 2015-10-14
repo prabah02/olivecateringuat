@@ -48,6 +48,7 @@
 						placeholder="Your Message"  required></textarea>
 				</div>
 				<input type="hidden" id="ACT" name="ACT" value="contactUsSideBar">
+				<label id="successMsg" style="color:green"> </label>
 				<button type="submit" name="contactUsSideBar_Submit" id="contactUsSideBar_Submit" class="btn btn-default">Submit</button><br><br>
 			</form>
 		</div>
