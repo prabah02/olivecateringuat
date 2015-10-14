@@ -89,7 +89,7 @@ $(document).ready(function(){
    	    var formData = $("#contactUsSideBar").serialize();
    	    console.log("Form data"+formData);
    	    $.ajax({
-   	        url:"http://localhost:8080/olivecatering/Router",
+   	        url:"https://olivecateringuat.herokuapp.com/Router",
    	        type:"post",
    	        data: formData,
    	        cache: false,				
