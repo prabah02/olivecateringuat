@@ -35,7 +35,7 @@ public void processSendMail(HttpServletRequest request){
 	Map<String, String> getUserDetails = null;
 	getUserDetails=getEnumData(request);
 	SendContactUsMail mail = new SendContactUsMail();
-	PropertyFileReader reader = new PropertyFileReader();
+	//PropertyFileReader reader = new PropertyFileReader();
 	String message="  Name:"+getUserDetails.get("contactUsSideBar_Name")+";  \n  PhoneNumber:"+getUserDetails.get("contactUsSideBar_PhoneNumber")+";  \n  MailId:"+getUserDetails.get("contactUsSideBar_Email")+";  \n  Message:"+getUserDetails.get("contactUsSideBar_Message");
 	System.out.println(message);
 		try {
