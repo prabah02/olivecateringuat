@@ -12,6 +12,7 @@ import javax.mail.internet.AddressException;
 import javax.servlet.http.HttpServletRequest;
 
 import app.impl.SendContactUsMail;
+import app.utils.PropertyFileReader;
 import app.utils.SmallUtils;
 
 public class GenericMethods {
@@ -34,10 +35,11 @@ public void processSendMail(HttpServletRequest request){
 	Map<String, String> getUserDetails = null;
 	getUserDetails=getEnumData(request);
 	SendContactUsMail mail = new SendContactUsMail();
+	PropertyFileReader reader = new PropertyFileReader();
 	String message="  Name:"+getUserDetails.get("contactUsSideBar_Name")+";  \n  PhoneNumber:"+getUserDetails.get("contactUsSideBar_PhoneNumber")+";  \n  MailId:"+getUserDetails.get("contactUsSideBar_Email")+";  \n  Message:"+getUserDetails.get("contactUsSideBar_Message");
 	System.out.println(message);
 		try {
-			mail.Send("hugeltechnologies","ExpCer!1018","prabah.02@gmail.com","A new contact us message submitted on"+SmallUtils.getCurrentDate()+" "+SmallUtils.getMillSecs(),message);
+			mail.Send(reader.getPropertyValue("USER_NAME"),reader.getPropertyValue("PASSWORD"),reader.getPropertyValue("TO_MAIL_ID"),"A new contact us message submitted on "+SmallUtils.getCurrentDate()+" "+SmallUtils.getMillSecs(),message);
 		} catch (AddressException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

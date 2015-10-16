@@ -110,7 +110,7 @@ $(document).ready(function(){
     
     $.fn.displaySuccessMsg = function () {
         $('#successMsg').html("Thankyou!, our team will contact you soon.");
-       ('[id^=contactUsSideBar]').val("");
+        $('[id^=contactUsSideBar]').val("");
     };
     
     

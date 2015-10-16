@@ -65,7 +65,6 @@ public class SendContactUsMail {
         props.put("mail.smtps.quitwait", "false");
 
         Session session = Session.getInstance(props, null);
-        System.out.println(props);
 
         // -- Create a new message --
         final MimeMessage msg = new MimeMessage(session);
